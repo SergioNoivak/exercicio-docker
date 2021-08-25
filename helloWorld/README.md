@@ -2,7 +2,7 @@
 
 Nesse script o docker cria um container chamado de helloWorld a partir de uma imagem, se a imagem existir ele usa, senão baixa do dockerhub.
 
-o comando :
+o comando 
 
 ````powershell
 docker container run hello-world
@@ -36,7 +36,7 @@ For more examples and ideas, visit:
 
 Esse comando faz o ``docker image pull`` para baixar uma imagem do registry do docker (aqui no caso é um registry do dockerhub pois não há um registry local), depois é feito o ``docker container create`` criando o container,  depois faz o ``docker container start`` a inicialização do container e por fim faz o ``docker container exec`` para executar o container.
 
-<img src="./img1.jpg" alt="au" style="zoom:15%;" />
+<img src="./img1.jpg" height="350" width="500" alt="au" />
 
 
 
