@@ -2,7 +2,7 @@
 
 Nesse script o docker cria um container chamado de helloWorld a partir de uma imagem, se a imagem existir ele usa, senão baixa do dockerhub.
 
-o comando 
+o comando :
 
 ````powershell
 docker container run hello-world
