@@ -32,3 +32,12 @@ For more examples and ideas, visit:
 
 ````
 
+
+
+Esse comando faz o ``docker image pull`` para baixar uma imagem do registry do docker (aqui no caso é um registry do dockerhub pois não há um registry local), depois é feito o ``docker container create`` criando o container,  depois faz o ``docker container start`` a inicialização do container e por fim faz o ``docker container exec`` para executar o container.
+
+<img src="./img1.jpg" alt="au" style="zoom:15%;" />
+
+
+
+A partir da versão 1.13 do docker houve uma mudança nos comandos, muitos comandos antigos funcionam. 
